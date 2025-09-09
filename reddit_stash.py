@@ -7,6 +7,9 @@ from utils.log_utils import load_file_log
 from utils.gdpr_processor import process_gdpr_export
 
 def main():
+    import time
+    time.sleep(10)
+    
     # Load configuration
     config_parser = configparser.ConfigParser()
     config_parser.read('settings.ini')
